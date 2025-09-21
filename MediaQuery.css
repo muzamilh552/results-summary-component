@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+  }
+}

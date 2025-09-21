@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "inter";
+    src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+
+}
+
+.Result-card {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: hsl(241, 81%, 54%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.Result-card h3 {
+    color: hsl(252, 100%, 67%);
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 190px;
+}
+
+.circle {
+    position: absolute;
+    left: 75px;
+    top: 70px;
+
+    padding: 44px;
+    background: linear-gradient(180deg, #6a11cb 0%, #2575fc 100%);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.circle h1 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.Result-card span {
+    color: #ffffff99;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.Result-card h3,
+p {
+    color: #ffffff99;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.Result-card h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+.Result-card p {
+    padding: 0 20px;
+}
+
+.summary-card {
+    width: 300px;
+    height: auto;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+}
+
+.reaction {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: #ebbfc7;
+
+    padding: 10px;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.reaction h3 {
+    color: #ce5050;
+    font-size: .9rem;
+}
+
+.reaction span {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+h4 {
+    color: #44434399;
+    text-align: center;
+    font-size: .9rem;
+
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.memory {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: #ecd5aa;
+    padding: 10px;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.memory h3 {
+    color: #e9bb65;
+    font-size: .9rem;
+}
+
+.memory span {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+.verbal {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: #d8f5d8;
+    padding: 10px;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.verbal h3 {
+    color: #5f995f;
+    font-size: .9rem;
+}
+
+.verbal span {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+
+.visual {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: #e7c2e7;
+    padding: 10px;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.visual h3 {
+    color: #1d1daa;
+    font-size: .9rem;
+}
+
+.visual span {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+
+button {
+
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 10px;
+    gap: 12px;
+    margin: 10px 0;
+    border: none;
+}
+
+button:hover {
+    background: blue;
+}
